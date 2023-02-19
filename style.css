@@ -194,6 +194,8 @@
     }
 
 
+    /* fadeIn added in index.js ex: .weather-box.classList.add("fadeIn")*/
+
     .fadeIn {
         animation: 0.5s fadeIn forwards;
         animation-delay: 0.5s;
