@@ -35,7 +35,7 @@ const logicWeather = async () => {
   console.log(json);
 
   if (json.cod === "404") {
-    container.style.height = "400px";
+    container.style.height = "480px";
     weatherBox.style.display = "none";
     weatherDetails.style.display = "none";
     error404.style.display = "block";
