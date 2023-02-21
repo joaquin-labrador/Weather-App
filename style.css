@@ -207,3 +207,67 @@
             opacity: 1;
         }
     }
+
+    /* Responsive */
+
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 300px;
+            height: 80px;
+            padding: 20px 24px;
+        }
+
+        .search-box input {
+            width: 70%;
+            font-size: 18px;
+        }
+
+        .search-box input::placeholder {
+            font-size: 16px;
+        }
+
+        .search-box button {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+        }
+
+        .weather-box .temperature {
+            font-size: 3rem;
+            margin-top: 20px;
+        }
+
+        .weather-box .temperature span {
+            font-size: 1rem;
+        }
+
+        .weather-box .description {
+            font-size: 18px;
+        }
+
+        .weather-details .humidity,
+        .weather-details .wind {
+            width: 40%;
+        }
+
+        .weather-details i {
+            font-size: 22px;
+            margin-right: 8px;
+        }
+
+        .weather-details span {
+            font-size: 18px;
+        }
+
+        .weather-details p {
+            font-size: 10px;
+        }
+
+        .not-found img {
+            width: 80%;
+        }
+
+        .not-found p {
+            font-size: 18px;
+        }
+    }
